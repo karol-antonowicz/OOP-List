@@ -1,0 +1,67 @@
+
+input {
+    padding: 10px;
+    color: brown;
+    background-color: burlywood;
+}
+
+input:focus {
+    background: white;
+    outline: 0;
+}
+
+
+
+.people {
+    display: flex;
+    
+    flex-direction: row;
+}
+
+.people > div {
+    width: 16%;
+}
+
+
+
+#recordsS > div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#recordsS > div > div{
+   width: 16%;
+   border: 1px solid black;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#recordsS > div > div:nth-of-type(2n+1) {
+ background-color: rgb(178, 178, 238);
+ }
+ #recordsS > div > div:nth-of-type(2n) {
+    background-color: rgb(213, 213, 241);
+    }
+
+#recordsT > div {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#recordsT > div > div{
+    width: 16%;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+
+#recordsT > div > div:nth-of-type(2n+1) {
+    background-color: rgb(238, 178, 178);
+    }
+
+ #recordsT > div > div:nth-of-type(2n) {
+        background-color: rgb(243, 209, 209);
+        }

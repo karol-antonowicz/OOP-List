@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="formula">
+            <div>
+                <input id="inputName" placeholder="Imię" />
+            </div>
+            <div>
+                <input id="inputSurname" placeholder="Nazwisko" />
+            </div>
+            <div>
+                <input id="inputPesel" placeholder="Numer PESEL" />
+            </div>
+            <div>
+                <input id="inputKierunek" placeholder="(Student) Kierunek studiów" />
+            </div>
+            <div>
+                <input id="inputStanowisko" placeholder="(Nauczyciel) Stanowisko" />
+            </div>
+            <div>
+                <input type="radio" name="profile" id="inputStudent" value="student" checked>Student<br>
+                <input type="radio" name="profile" id="inputProfile" value="nauczyciel">Nauczyciel
+            </div>
+            <button id="addButton">Dodaj do listy</button>
+        </div>
+    </header>
+    <section class="student">
+        <div class="people">
+            <div class="people__name people__name--head">
+                Imię
+            </div>
+            <div class="people__surname people__surname--head">
+                Nazwisko
+            </div>
+            <div class="people__age people__pesel--head">
+                Numer PESEL
+            </div>
+            <div class="people__role people__kierunek--head">
+                Kierunek studiów
+            </div>
+            <div class="people__role people__profil--head">
+                    Profil
+                </div>
+        </div>
+        <div id="recordsS">
+        </div>
+    </section>
+    <section class="teacher">
+            <div class="people">
+                <div class="people__name people__name--head">
+                    Imię
+                </div>
+                <div class="people__surname people__surname--head">
+                    Nazwisko
+                </div>
+                <div class="people__age people__pesel--head">
+                    Numer PESEL
+                </div>
+                <div class="people__role people__kierunek--head">
+                    Stanowisko
+                </div>
+                <div class="people__role people__kierunek--head">
+                        Profil
+                    </div>
+            </div>
+            <div id="recordsT">
+            </div>
+        </section>
+        <div id="lolalola"></div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
